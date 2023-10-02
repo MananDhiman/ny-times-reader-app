@@ -9,6 +9,6 @@
   <TextView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:text="Hello! Manan made this" />
+    android:text="This is unofficial app made only as a project to showcase my learning.\n The source is the api given at developer.nytimes.com" />
 
 </FrameLayout>

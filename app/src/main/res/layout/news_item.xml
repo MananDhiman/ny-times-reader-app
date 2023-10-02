@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   android:id="@+id/layout"
+
   android:layout_width="match_parent"
-  android:layout_height="200dp"
-  android:layout_margin="12dp"
-  android:background="#B5ADAD"
-  android:orientation="vertical">
+  android:layout_height="wrap_content"
+  android:layout_marginTop="4dp"
+  android:layout_marginBottom="2dp"
+  android:background="@drawable/list_item_background"
+  android:elevation="6dp"
+  android:orientation="vertical"
+  android:padding="3dp">
 
   <TextView
     android:id="@+id/textViewTitle"
@@ -19,6 +24,7 @@
     android:id="@+id/textViewAbstract"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
     android:layout_weight="3"
     android:text="TextView" />
 
@@ -26,6 +32,7 @@
     android:id="@+id/tvMisc"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
     android:layout_weight="1"
     android:text="TextView" />
 </LinearLayout>

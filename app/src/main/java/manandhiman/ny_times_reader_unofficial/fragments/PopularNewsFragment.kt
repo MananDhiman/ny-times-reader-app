@@ -6,6 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.AdapterView
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import manandhiman.ny_times_reader_unofficial.R
@@ -29,9 +31,43 @@ class PopularNewsFragment : Fragment() {
 
     binding = FragmentPopularNewsBinding.inflate(layoutInflater, container, false)
 
+    initSpinner()
+
     fetchFromApi()
 
     return binding.root
+  }
+
+  private fun initSpinner() {
+    val timeDuration = arrayOf("1","3","5","7","10","15")
+    val arrayAdapter = ArrayAdapter(requireContext(), com.google.android.material.R.layout.support_simple_spinner_dropdown_item, timeDuration)
+    binding.spinner.adapter = arrayAdapter
+
+    binding.spinner.onItemSelectedListener = object :
+    AdapterView.OnItemSelectedListener {
+      override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
+        val durationSelected = binding.spinner.getItemAtPosition(p2).toString()
+        getPostsOfDuration(durationSelected)
+      }
+
+      override fun onNothingSelected(p0: AdapterView<*>?) {
+        TODO("Not yet implemented")
+      }
+    }
+  }
+
+  private fun getPostsOfDuration(durationSelected: String) {
+    val response = RetrofitInstance.getInstance().apiInterface.getPopularNews(durationSelected)
+    response.enqueue(object: Callback<String> {
+
+      override fun onFailure(call: Call<String>, t: Throwable) {
+//        Log.d("response fail", t.message.toString())
+        Toast.makeText(context, R.string.toast_err, Toast.LENGTH_LONG).show() }
+
+      override fun onResponse(call: Call<String>, response: Response<String>) {
+        Toast.makeText(requireContext(), response.body(), Toast.LENGTH_LONG).show() }
+
+    })
   }
 
   private fun fetchFromApi() {

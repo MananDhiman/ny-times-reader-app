@@ -1,4 +1,4 @@
 <resources>
-  <string name="app_name">The New York Times News Reader - Unofficial</string>
+  <string name="app_name">The New York Times Reader - Unofficial</string>
   <string name="toast_err">Some error occurred. Please wait, and try again later </string>
 </resources>

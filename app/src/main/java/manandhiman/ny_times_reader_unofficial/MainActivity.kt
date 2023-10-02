@@ -1,5 +1,5 @@
 package manandhiman.ny_times_reader_unofficial
-
+// Inflate the layout for this fragment
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -21,23 +21,28 @@ import retrofit2.Response
 import java.lang.Exception
 
 class MainActivity : AppCompatActivity() {
+
   private lateinit var binding: ActivityMainBinding
   private val tabsArray = arrayOf("Popular", "Search", "About")
+
   override fun onCreate(savedInstanceState: Bundle?) {
+
     super.onCreate(savedInstanceState)
     binding = ActivityMainBinding.inflate(layoutInflater)
     setContentView(binding.root)
 
-    // remove get response on button click
     // add swipe refresh
     // add save last record to local db for reading
     // add save article to local db for permanent
 
     val adapter = ViewPagerAdapter(supportFragmentManager, lifecycle)
+
     binding.viewPager.adapter = adapter
+
     TabLayoutMediator(binding.tabLayout, binding.viewPager) {
         tab, position -> tab.text = tabsArray[position]
     }.attach()
+
   }
 
 }
