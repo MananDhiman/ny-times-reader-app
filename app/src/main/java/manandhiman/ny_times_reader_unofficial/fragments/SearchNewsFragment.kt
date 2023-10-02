@@ -1,26 +1,21 @@
 package manandhiman.ny_times_reader_unofficial.fragments
 
 import android.os.Bundle
-import android.util.Log
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import manandhiman.ny_times_reader_unofficial.R
-import manandhiman.ny_times_reader_unofficial.adapters.PopularNewsRecyclerViewAdapter
 import manandhiman.ny_times_reader_unofficial.adapters.SearchedArticleRecyclerViewAdapter
 import manandhiman.ny_times_reader_unofficial.databinding.FragmentSearchNewsBinding
-import manandhiman.ny_times_reader_unofficial.model.popular.PopularNewsApiResponse
-import manandhiman.ny_times_reader_unofficial.model.popular.PopularNewsSingleResult
 import manandhiman.ny_times_reader_unofficial.model.search_article.Doc
 import manandhiman.ny_times_reader_unofficial.model.search_article.SearchArticleApiResponse
 import manandhiman.ny_times_reader_unofficial.retrofit.RetrofitInstance
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.lang.Exception
 
 class SearchNewsFragment : Fragment() {
   private lateinit var binding: FragmentSearchNewsBinding
@@ -29,8 +24,6 @@ class SearchNewsFragment : Fragment() {
     savedInstanceState: Bundle?
   ): View {
     binding = FragmentSearchNewsBinding.inflate(layoutInflater, container, false)
-
-    fetchFromApi()
 
     binding.button.setOnClickListener {
       prepareRequest()
@@ -44,42 +37,28 @@ class SearchNewsFragment : Fragment() {
     val q = binding.editText.text.toString()
 
     val qArr = q.split(" ")
+    val query = qArr[0]
 
-    val map = mutableMapOf<String, String>()
-    for(i in qArr) map[i] = i
-    Log.d("map", map.toString())
-    Toast.makeText(requireContext(), "Making Req", Toast.LENGTH_SHORT).show()
-    makeSearchRequest(map)
+    makeSearchRequest(query)
   }
 
-  private fun makeSearchRequest(map: Map<String, String>) {
-    val response = RetrofitInstance.getInstance().apiInterface.getArticle(map)
-    response.enqueue(object: Callback<String> {
+  private fun makeSearchRequest(query: String) {
 
-      override fun onFailure(call: Call<String>, t: Throwable) {
-        Log.d("response fail", t.message.toString())
-        Toast.makeText(context, R.string.toast_err, Toast.LENGTH_LONG).show() }
+    val apiKey = context?.getString(R.string.api_key)
+    val response = RetrofitInstance.getInstance().apiInterface.getArticle(query,
+      apiKey!!
+    )
 
-      override fun onResponse(call: Call<String>, response: Response<String>) {
-        Toast.makeText(requireContext(), response.body(), Toast.LENGTH_LONG).show() }
-
-    })
-  }
-
-  private fun fetchFromApi() {
-
-    val response = RetrofitInstance.getInstance().apiInterface.getArticle()
     response.enqueue(object: Callback<SearchArticleApiResponse> {
 
       override fun onFailure(call: Call<SearchArticleApiResponse>, t: Throwable) {
-//        Log.d("response fail", t.message.toString())
-        Toast.makeText(context, R.string.toast_err, Toast.LENGTH_LONG).show() }
+        Toast.makeText(context,R.string.toast_api_no_response, Toast.LENGTH_LONG).show() }
 
       override fun onResponse(call: Call<SearchArticleApiResponse>, response: Response<SearchArticleApiResponse>) {
-        popularHandleSuccessResponse(response) }
+        popularHandleSuccessResponse(response)
+      }
 
     })
-
   }
 
   private fun popularHandleSuccessResponse(response: Response<SearchArticleApiResponse>) {
@@ -88,15 +67,11 @@ class SearchNewsFragment : Fragment() {
       popularDisplayResults(listPopularNews)
     }
     catch (e: Exception) {
-//      Log.d("response try exce", e.message.toString())
-//      Log.d("response try exce", response.body().toString())
-      Toast.makeText(context, R.string.toast_err, Toast.LENGTH_LONG).show()
+      Toast.makeText(context, R.string.toast_api_got_response, Toast.LENGTH_LONG).show()
     }
   }
 
   private fun popularDisplayResults(listPopularNews: List<Doc>) {
-
-    Toast.makeText(context, "News Fetched", Toast.LENGTH_LONG).show()
 
     binding.recyclerView.layoutManager = LinearLayoutManager(context)
     val adapter = SearchedArticleRecyclerViewAdapter(listPopularNews)

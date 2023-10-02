@@ -1,4 +1,5 @@
 <resources>
   <string name="app_name">The New York Times Reader - Unofficial</string>
-  <string name="toast_err">Some error occurred. Please wait, and try again later </string>
+  <string name="toast_api_no_response">Some error occurred. Please wait, and try again later </string>
+  <string name="toast_api_got_response">Could not parse response. Please wait, and try again later </string>
 </resources>

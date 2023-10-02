@@ -4,8 +4,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
-//  private const val BASE_URL = "https://api.nytimes.com/svc/"
-  private const val BASE_URL = "http://192.168.42.183:3000/"
+  private const val BASE_URL = "https://api.nytimes.com/svc/"
+
   private var instance: RetrofitInstance? = null
   var apiInterface: ApiInterface
 
