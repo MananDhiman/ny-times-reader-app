@@ -1,6 +1,8 @@
 package manandhiman.ny_times_reader_unofficial.fragments
 
+import android.app.ProgressDialog
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -10,7 +12,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import manandhiman.ny_times_reader_unofficial.R
-import manandhiman.ny_times_reader_unofficial.adapters.PopularNewsRecyclerViewAdapter
+import manandhiman.ny_times_reader_unofficial.adapters.PopularRVAdapter
 import manandhiman.ny_times_reader_unofficial.databinding.FragmentPopularNewsBinding
 import manandhiman.ny_times_reader_unofficial.model.popular.PopularNewsApiResponse
 import manandhiman.ny_times_reader_unofficial.model.popular.PopularNewsSingleResult
@@ -37,19 +39,22 @@ class PopularNewsFragment : Fragment() {
 
   private fun initSpinner() {
 
-    val timeDuration = arrayOf("1","3","5","7","10","15")
-    val arrayAdapter = ArrayAdapter(
+    val timePeriods = arrayOf("-","1","7","30")
+    val spinnerAdapter = ArrayAdapter(
       requireContext(),
       com.google.android.material.R.layout.support_simple_spinner_dropdown_item,
-      timeDuration)
+      timePeriods)
 
-    binding.spinner.adapter = arrayAdapter
+    binding.spinner.adapter = spinnerAdapter
 
     binding.spinner.onItemSelectedListener = object :
     AdapterView.OnItemSelectedListener {
       override fun onItemSelected(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
-        val durationSelected = binding.spinner.getItemAtPosition(p2).toString()
-        fetchFromApi(durationSelected)
+
+        val timePeriodSelected = binding.spinner.getItemAtPosition(p2).toString()
+
+        if(timePeriodSelected != "-") makeHttpRequest(timePeriodSelected)
+
       }
 
       override fun onNothingSelected(p0: AdapterView<*>?) {
@@ -58,7 +63,7 @@ class PopularNewsFragment : Fragment() {
     }
   }
 
-  private fun fetchFromApi(durationSelected: String) {
+  private fun makeHttpRequest(durationSelected: String) {
 
     val apiKey = context?.getString(R.string.api_key)
     val response = RetrofitInstance.getInstance().apiInterface.getPopularNews(
@@ -72,26 +77,26 @@ class PopularNewsFragment : Fragment() {
 
       override fun onResponse(call: Call<PopularNewsApiResponse>, response: Response<PopularNewsApiResponse>) {
 
-        popularHandleSuccessResponse(response) }
+        handleApiResponse(response) }
 
     })
   }
 
-  private fun popularHandleSuccessResponse(response: Response<PopularNewsApiResponse>) {
+  private fun handleApiResponse(response: Response<PopularNewsApiResponse>) {
     try {
       val listPopularNews: List<PopularNewsSingleResult> = response.body()!!.listPopularNews
-      popularDisplayResults(listPopularNews)
+
+      generateRecyclerView(listPopularNews)
     }
     catch (e: Exception) {
+      Log.d("try fail response body", response.body().toString())
       Toast.makeText(context, R.string.toast_api_got_response, Toast.LENGTH_LONG).show() }
   }
 
-  private fun popularDisplayResults(listPopularNews: List<PopularNewsSingleResult>) {
-
-    Toast.makeText(context, "News Fetched", Toast.LENGTH_LONG).show()
+  private fun generateRecyclerView(listPopularNews: List<PopularNewsSingleResult>) {
 
     binding.recyclerView.layoutManager = LinearLayoutManager(context)
-    val adapter = PopularNewsRecyclerViewAdapter(listPopularNews)
+    val adapter = PopularRVAdapter(listPopularNews)
 
     binding.recyclerView.adapter = adapter
 

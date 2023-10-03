@@ -8,7 +8,6 @@ import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface ApiInterface {
-//   get Popular 1 day
   @GET("mostpopular/v2/viewed/{duration}.json")
   fun getPopularNews(
     @Path("duration") duration: String,
@@ -20,13 +19,9 @@ interface ApiInterface {
     @Query("api-key") apiKey:String): Call<SearchArticleApiResponse>
 
   // for local testing
-//  @GET("popular")
-//  fun getPopularNews(): Call<PopularNewsApiResponse>
-//
-//  @GET("popular/{duration}")
-//  fun getPopularNews(@Path("duration") duration: String): Call<String>
-//
-//
-//  @GET("article/q")
-//  fun getArticle(@QueryMap options: Map<String, String>): Call<String>
+  @GET("popular")
+  fun getPopularNews(): Call<PopularNewsApiResponse>
+
+  @GET("article")
+  fun getArticle(): Call<SearchArticleApiResponse>
 }

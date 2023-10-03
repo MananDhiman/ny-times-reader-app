@@ -1,0 +1,1180 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2023 The New York Times Company.  All Rights Reserved.",
+    "num_results": 20,
+    "results": [
+        {
+            "uri": "nyt://article/05d444d0-69be-5840-bd72-5c59fd7a7cf3",
+            "url": "https://www.nytimes.com/article/best-movies-hbo-max.html",
+            "id": 100000008243013,
+            "asset_id": 100000008243013,
+            "source": "New York Times",
+            "published_date": "2022-05-17",
+            "updated": "2023-09-29 19:24:32",
+            "section": "Movies",
+            "subsection": "",
+            "nytdsection": "movies",
+            "adx_keywords": "Movies;Video Recordings, Downloads and Streaming;HBO Max",
+            "column": null,
+            "byline": "By Scott Tobias",
+            "type": "Article",
+            "title": "The 50 Best Movies on Max Right Now",
+            "abstract": "In addition to new Warner and HBO films, the streamer has a treasure trove of Golden Age classics, indie flicks and foreign films. Start with these.",
+            "des_facet": [
+                "Movies",
+                "Video Recordings, Downloads and Streaming"
+            ],
+            "org_facet": [
+                "HBO Max"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Frances McDormand in “Fargo.”",
+                    "copyright": "Michael Tackett/Gramercy Pictures",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2016/06/21/watching/fargo-watching-recommendation/fargo-watching-recommendation-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2016/06/21/watching/fargo-watching-recommendation/fargo-watching-recommendation-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2016/06/21/watching/fargo-watching-recommendation/fargo-watching-recommendation-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/770afbe4-b85e-5857-89e6-ff61893e70b0",
+            "url": "https://www.nytimes.com/2023/09/30/opinion/aging-old-wisdom.html",
+            "id": 100000009105371,
+            "asset_id": 100000009105371,
+            "source": "New York Times",
+            "published_date": "2023-09-30",
+            "updated": "2023-09-30 13:41:56",
+            "section": "Opinion",
+            "subsection": "",
+            "nytdsection": "opinion",
+            "adx_keywords": "Books and Literature;Elderly;Age, Chronological;Comedy and Humor",
+            "column": null,
+            "byline": "By Roger Rosenblatt",
+            "type": "Article",
+            "title": "What They Don’t Tell You About Getting Old",
+            "abstract": "Getting old is no joke. It just looks funny.",
+            "des_facet": [
+                "Books and Literature",
+                "Elderly",
+                "Age, Chronological",
+                "Comedy and Humor"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Lauren Martin",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/opinion/30Rosenblatt/30Rosenblatt-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/opinion/30Rosenblatt/30Rosenblatt-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/opinion/30Rosenblatt/30Rosenblatt-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://interactive/46c30d8c-ebd8-5974-8b1d-ff1cfc5120c7",
+            "url": "https://www.nytimes.com/interactive/2023/09/29/briefing/news-quiz-menendez-biden-taylor-swift.html",
+            "id": 100000009108360,
+            "asset_id": 100000009108360,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-29 05:03:35",
+            "section": "Briefing",
+            "subsection": "",
+            "nytdsection": "briefing",
+            "adx_keywords": "Content Type: Quiz",
+            "column": null,
+            "byline": "",
+            "type": "Interactive",
+            "title": "The New York Times News Quiz, Sept. 29, 2023",
+            "abstract": "Did you follow the news this week? Take our quiz to see how well you stack up with other Times readers.",
+            "des_facet": [
+                "Content Type: Quiz"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "",
+                    "caption": "",
+                    "copyright": "Jefferson Siegel for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29news-quiz-qljb/29news-quiz-qljb-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29news-quiz-qljb/29news-quiz-qljb-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29news-quiz-qljb/29news-quiz-qljb-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/ef4ba61f-4ac6-5aa2-a128-71280d5ec137",
+            "url": "https://www.nytimes.com/2023/09/29/well/family/relationships-intimacy-bristle-reaction-sex.html",
+            "id": 100000009108377,
+            "asset_id": 100000009108377,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-29 13:30:17",
+            "section": "Well",
+            "subsection": "Family",
+            "nytdsection": "well",
+            "adx_keywords": "internal-sub-only-nl;Dating and Relationships;Love (Emotion);Content Type: Service",
+            "column": null,
+            "byline": "By Jancee Dunn",
+            "type": "Article",
+            "title": "Watch Out for This Common Intimacy Killer",
+            "abstract": "For couples in long-term relationships, the “bristle reaction” can make physical connection difficult, experts say.",
+            "des_facet": [
+                "internal-sub-only-nl",
+                "Dating and Relationships",
+                "Love (Emotion)",
+                "Content Type: Service"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by Nicolás Ortega; Photograph by Getty Images",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/28/well/28WELLNL-BRISTLE-REACTION/28WELLNL-BRISTLE-REACTION-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/28/well/28WELLNL-BRISTLE-REACTION/28WELLNL-BRISTLE-REACTION-mediumThreeByTwo210-v2.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/28/well/28WELLNL-BRISTLE-REACTION/28WELLNL-BRISTLE-REACTION-mediumThreeByTwo440-v2.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://interactive/698aca93-b7ad-539b-8688-9ecb1042cd70",
+            "url": "https://www.nytimes.com/interactive/2023/09/29/upshot/flashback.html",
+            "id": 100000009110526,
+            "asset_id": 100000009110526,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-10-01 06:02:38",
+            "section": "The Upshot",
+            "subsection": "",
+            "nytdsection": "the upshot",
+            "adx_keywords": "internal-paywall-exempt;Content Type: Quiz",
+            "column": null,
+            "byline": "",
+            "type": "Interactive",
+            "title": "Flashback: Your Weekly History Quiz, October 1, 2023",
+            "abstract": "Can you sort 8 historical events? The arrival of tea in England, the development of Braille, and “Pride and “Prejudice.”",
+            "des_facet": [
+                "internal-paywall-exempt",
+                "Content Type: Quiz"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "",
+                    "caption": "",
+                    "copyright": "",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/upshot/flashback-promo-20231001/flashback-promo-20231001-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/upshot/flashback-promo-20231001/flashback-promo-20231001-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/upshot/flashback-promo-20231001/flashback-promo-20231001-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/7ea7e5a4-e49c-57d0-8f01-ddc37dfdcfb1",
+            "url": "https://www.nytimes.com/2023/09/29/magazine/ring-family-heirloom-ethics.html",
+            "id": 100000009109384,
+            "asset_id": 100000009109384,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-29 15:37:54",
+            "section": "Magazine",
+            "subsection": "",
+            "nytdsection": "magazine",
+            "adx_keywords": "Ethics (Personal);internal-sub-only-nl;Families and Family Life;Gifts",
+            "column": null,
+            "byline": "By Kwame Anthony Appiah",
+            "type": "Article",
+            "title": "I Was Given a Ring as a Treasured Heirloom. Can I Sell It?",
+            "abstract": "The magazine’s Ethicist columnist on the expectations that come with receiving gifts.",
+            "des_facet": [
+                "Ethics (Personal)",
+                "internal-sub-only-nl",
+                "Families and Family Life",
+                "Gifts"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Illustration by Tomi Um",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/08/magazine/08mag-ethicist/08mag-ethicist-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/08/magazine/08mag-ethicist/08mag-ethicist-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/08/magazine/08mag-ethicist/08mag-ethicist-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/8077d581-2bd3-5c8e-aaff-48544f8b369a",
+            "url": "https://www.nytimes.com/2023/09/30/style/gwyneth-paltrow-goop.html",
+            "id": 100000008971079,
+            "asset_id": 100000008971079,
+            "source": "New York Times",
+            "published_date": "2023-09-30",
+            "updated": "2023-09-30 15:46:43",
+            "section": "Style",
+            "subsection": "",
+            "nytdsection": "style",
+            "adx_keywords": "Content Type: Personal Profile;Actors and Actresses;Paltrow, Gwyneth;Goop.com;Amagansett (NY)",
+            "column": null,
+            "byline": "By Marisa Meltzer",
+            "type": "Article",
+            "title": "Gwyneth Paltrow Looks Back at 15 Years of Goop and More: ‘Don’t Put Me on Truth Serum.’",
+            "abstract": "The actress and entrepreneur knows she and her company are cultural lightning rods.",
+            "des_facet": [
+                "Content Type: Personal Profile",
+                "Actors and Actresses"
+            ],
+            "org_facet": [
+                "Goop.com"
+            ],
+            "per_facet": [
+                "Paltrow, Gwyneth"
+            ],
+            "geo_facet": [
+                "Amagansett (NY)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "“I don’t think I can have this job forever,” Ms. Paltrow said, of running Goop.",
+                    "copyright": "Dana Scruggs for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/01GWYNETH-08-sub-mtzf/01GWYNETH-08-sub-mtzf-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/01GWYNETH-08-sub-mtzf/01GWYNETH-08-sub-mtzf-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/01GWYNETH-08-sub-mtzf/01GWYNETH-08-sub-mtzf-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/3264dd74-ab87-57c9-96d5-65818efa2647",
+            "url": "https://www.nytimes.com/2023/09/27/style/gerry-turner-golden-bachelor.html",
+            "id": 100000009090733,
+            "asset_id": 100000009090733,
+            "source": "New York Times",
+            "published_date": "2023-09-27",
+            "updated": "2023-09-28 15:52:29",
+            "section": "Style",
+            "subsection": "",
+            "nytdsection": "style",
+            "adx_keywords": "Reality Television;Dating and Relationships;Content Type: Personal Profile;audio-neutral-informative",
+            "column": null,
+            "byline": "By Callie Holtermann",
+            "type": "Article",
+            "title": "He’s the First ‘Golden Bachelor.’ Just Don’t Call Him a Silver Fox.",
+            "abstract": "Gerry Turner, 72, is the lead of ABC’s new dating show — and ready to look for love again.",
+            "des_facet": [
+                "Reality Television",
+                "Dating and Relationships",
+                "Content Type: Personal Profile",
+                "audio-neutral-informative"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Asked if Gerry Turner, who is the first “Golden Bachelor,” had ever applied for a TV show before, he laughed: “Never! Never.”",
+                    "copyright": "Daniel Dorsa for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/28/multimedia/27GERIATRIC-BACHELOR-01-bzvh/27GERIATRIC-BACHELOR-01-bzvh-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/28/multimedia/27GERIATRIC-BACHELOR-01-bzvh/27GERIATRIC-BACHELOR-01-bzvh-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/28/multimedia/27GERIATRIC-BACHELOR-01-bzvh/27GERIATRIC-BACHELOR-01-bzvh-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/26ea3167-c210-5b52-a1fa-a6b21d1fd4d0",
+            "url": "https://www.nytimes.com/2023/09/29/arts/music/tupac-shakur-murder-charge-arrest.html",
+            "id": 100000009005276,
+            "asset_id": 100000009005276,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-30 11:12:38",
+            "section": "Arts",
+            "subsection": "Music",
+            "nytdsection": "arts",
+            "adx_keywords": "Rap and Hip-Hop;Gangs;Murders, Attempted Murders and Homicides;vis-video;Shakur, Tupac;Davis, Duane Keith (1963- );Bloods (Gang);Crips (Gang);Las Vegas (Nev)",
+            "column": null,
+            "byline": "By Joe Coscarelli and Julia Jacobs",
+            "type": "Article",
+            "title": "Man Is Charged With Murder in Tupac Shakur Case",
+            "abstract": "The man, a former gang leader named Duane Keith Davis, has said the four shots that killed the rapper in 1996 came from the vehicle he was riding in.",
+            "des_facet": [
+                "Rap and Hip-Hop",
+                "Gangs",
+                "Murders, Attempted Murders and Homicides",
+                "vis-video"
+            ],
+            "org_facet": [
+                "Bloods (Gang)",
+                "Crips (Gang)"
+            ],
+            "per_facet": [
+                "Shakur, Tupac",
+                "Davis, Duane Keith (1963- )"
+            ],
+            "geo_facet": [
+                "Las Vegas (Nev)"
+            ],
+            "media": [],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/2343daf0-6f6b-5b99-bd6a-b993800cda84",
+            "url": "https://www.nytimes.com/2023/09/29/nyregion/nyc-flooding-video-photo.html",
+            "id": 100000009110375,
+            "asset_id": 100000009110375,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-29 19:12:22",
+            "section": "New York",
+            "subsection": "",
+            "nytdsection": "new york",
+            "adx_keywords": "Floods;Rain;Weather;vis-video;LaGuardia Airport (Queens, NY);Kennedy International Airport (Queens, NY);New York City;Brooklyn (NYC);Queens (NYC);Hoboken (NJ)",
+            "column": null,
+            "byline": "By Matthew Bloch, Keith Collins, Sarah Kerr, Zach Levitt, Rebecca Lieberman and Ainara Tiefenthäler",
+            "type": "Article",
+            "title": "Video: See Flooding in Some of the Hardest-Hit Areas of New York",
+            "abstract": "Heavy rainfall pounded New York City and the surrounding region Friday morning, flooding subway stations and major roadways.",
+            "des_facet": [
+                "Floods",
+                "Rain",
+                "Weather",
+                "vis-video"
+            ],
+            "org_facet": [
+                "LaGuardia Airport (Queens, NY)",
+                "Kennedy International Airport (Queens, NY)"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "New York City",
+                "Brooklyn (NYC)",
+                "Queens (NYC)",
+                "Hoboken (NJ)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Cars driving through a street near the Gowanus Canal in Brooklyn on Friday morning.",
+                    "copyright": "Anna Watts for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29-ny-flood-visuals-photo-Gowanus02-qkgl/29-ny-flood-visuals-photo-Gowanus02-qkgl-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29-ny-flood-visuals-photo-Gowanus02-qkgl/29-ny-flood-visuals-photo-Gowanus02-qkgl-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29-ny-flood-visuals-photo-Gowanus02-qkgl/29-ny-flood-visuals-photo-Gowanus02-qkgl-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://interactive/b790980e-bf2e-589c-af5c-668aac593bc7",
+            "url": "https://www.nytimes.com/interactive/2023/09/22/upshot/flashback.html",
+            "id": 100000009099022,
+            "asset_id": 100000009099022,
+            "source": "New York Times",
+            "published_date": "2023-09-22",
+            "updated": "2023-10-01 06:02:38",
+            "section": "The Upshot",
+            "subsection": "",
+            "nytdsection": "the upshot",
+            "adx_keywords": "internal-paywall-exempt;Content Type: Quiz",
+            "column": null,
+            "byline": "",
+            "type": "Interactive",
+            "title": "Flashback: Your Weekly History Quiz, September 24, 2023",
+            "abstract": "Can you sort 8 historical events? The fall of Rome, the first strike, and the first Christian nation.",
+            "des_facet": [
+                "internal-paywall-exempt",
+                "Content Type: Quiz"
+            ],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "",
+                    "caption": "",
+                    "copyright": "",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/22/upshot/flashback-promo-20230924/flashback-promo-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/22/upshot/flashback-promo-20230924/flashback-promo-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/22/upshot/flashback-promo-20230924/flashback-promo-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://interactive/78a3cfe9-eeaa-5f9e-9e2d-903f7cefeaad",
+            "url": "https://www.nytimes.com/interactive/2023/09/30/us/politics/senate-shutdown-vote-live.html",
+            "id": 100000009111885,
+            "asset_id": 100000009111885,
+            "source": "New York Times",
+            "published_date": "2023-09-30",
+            "updated": "2023-09-30 21:21:07",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "",
+            "column": null,
+            "byline": "By Lazaro Gamio, Alicia Parlapiano, Jasmine C. Lee, Helmuth Rosales, Molly Cook Escobar, Allison McCann, Karen Yourish and K.K. Rebecca Lai",
+            "type": "Interactive",
+            "title": "How Each Member Voted on the Senate Stopgap Spending Measure",
+            "abstract": "The Senate overwhelmingly passed a bill to fund the federal government through mid-November. See how each senator voted.",
+            "des_facet": [],
+            "org_facet": [],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "",
+                    "caption": "",
+                    "copyright": "The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/senate-shutdown-live-vote-0930-promo/senate-shutdown-live-vote-0930-promo-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/senate-shutdown-live-vote-0930-promo/senate-shutdown-live-vote-0930-promo-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/senate-shutdown-live-vote-0930-promo/senate-shutdown-live-vote-0930-promo-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/f3bf9447-3a05-5500-aead-50a5fbd9806f",
+            "url": "https://www.nytimes.com/2023/09/29/opinion/nazi-memorabilia-market-liveauctioneers.html",
+            "id": 100000009081299,
+            "asset_id": 100000009081299,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-30 13:31:52",
+            "section": "Opinion",
+            "subsection": "",
+            "nytdsection": "opinion",
+            "adx_keywords": "Holocaust and the Nazi Era;Memorabilia and Souvenirs;Collectors and Collections;Symbols;Anti-Semitism;Neo Nazi Groups;World War II (1939-45);Jews and Judaism;Freedom of Speech and Expression;Conventions, Fairs and Trade Shows;Hitler, Adolf;eBay Inc;Germany",
+            "column": null,
+            "byline": "By Menachem Kaiser",
+            "type": "Article",
+            "title": "What Kind of Person Has a Closet Full of Nazi Memorabilia?",
+            "abstract": "An SS dagger. Auschwitz cups. Hitler’s globe. If an object played a material role in the Third Reich, then it’s probably for sale. Why do we allow it?",
+            "des_facet": [
+                "Holocaust and the Nazi Era",
+                "Memorabilia and Souvenirs",
+                "Collectors and Collections",
+                "Symbols",
+                "Anti-Semitism",
+                "Neo Nazi Groups",
+                "World War II (1939-45)",
+                "Jews and Judaism",
+                "Freedom of Speech and Expression",
+                "Conventions, Fairs and Trade Shows"
+            ],
+            "org_facet": [
+                "eBay Inc"
+            ],
+            "per_facet": [
+                "Hitler, Adolf"
+            ],
+            "geo_facet": [
+                "Germany"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "O.O.P.S.",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/opinion/sunday/29Kaiser/29Kaiser-thumbStandard-v2.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/opinion/sunday/29Kaiser/29Kaiser-mediumThreeByTwo210-v3.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/opinion/sunday/29Kaiser/29Kaiser-mediumThreeByTwo440-v3.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/966af998-d648-585d-9256-daecd5b31ecf",
+            "url": "https://www.nytimes.com/2023/09/30/style/mums-homecoming-football-texas.html",
+            "id": 100000009096964,
+            "asset_id": 100000009096964,
+            "source": "New York Times",
+            "published_date": "2023-09-30",
+            "updated": "2023-09-30 23:41:47",
+            "section": "Style",
+            "subsection": "",
+            "nytdsection": "style",
+            "adx_keywords": "Teenagers and Adolescence;vis-photo;JJ Pearce High School (Richardson, Tex);Texas",
+            "column": null,
+            "byline": "By Rachel Sherman",
+            "type": "Article",
+            "title": "In Texas, Mums Rival Football as the Big Homecoming Attraction",
+            "abstract": "The elaborate adornments have come a long way since the days of simple chrysanthemum corsages.",
+            "des_facet": [
+                "Teenagers and Adolescence",
+                "vis-photo"
+            ],
+            "org_facet": [
+                "JJ Pearce High School (Richardson, Tex)"
+            ],
+            "per_facet": [],
+            "geo_facet": [
+                "Texas"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Rachel Rosenfeld, left, and Alex Abell, members of the Mustang Stampede dance group at J.J. Pearce High School in Richardson, Texas, with their homecoming mums in the school gymnasium.",
+                    "copyright": "Dylan Hollingsworth for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30TEXAS-MUMS-01-qpjm/30TEXAS-MUMS-01-qpjm-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30TEXAS-MUMS-01-qpjm/30TEXAS-MUMS-01-qpjm-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30TEXAS-MUMS-01-qpjm/30TEXAS-MUMS-01-qpjm-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/f27d6089-5e12-5a6c-a8af-6140d06dece9",
+            "url": "https://www.nytimes.com/2023/09/30/opinion/trump-gop-election-2024.html",
+            "id": 100000009109539,
+            "asset_id": 100000009109539,
+            "source": "New York Times",
+            "published_date": "2023-09-30",
+            "updated": "2023-09-30 16:54:41",
+            "section": "Opinion",
+            "subsection": "",
+            "nytdsection": "opinion",
+            "adx_keywords": "Presidential Election of 2024;Vice Presidents and Vice Presidency (US);Biden, Joseph R Jr;Christie, Christopher J;Cruz, Ted;DeSantis, Ron;Haley, Nikki R;Ramaswamy, Vivek (1985- );Scott, Timothy Eugene;Trump, Donald J;Republican Party;Iowa;United States",
+            "column": null,
+            "byline": "By Ross Douthat",
+            "type": "Article",
+            "title": "Trump’s Rivals Are Facing Loserdom. They Have a Long-Shot Option.",
+            "abstract": "It may be hopeless, but DeSantis, Haley and others need a post-Iowa plan.",
+            "des_facet": [
+                "Presidential Election of 2024",
+                "Vice Presidents and Vice Presidency (US)"
+            ],
+            "org_facet": [
+                "Republican Party"
+            ],
+            "per_facet": [
+                "Biden, Joseph R Jr",
+                "Christie, Christopher J",
+                "Cruz, Ted",
+                "DeSantis, Ron",
+                "Haley, Nikki R",
+                "Ramaswamy, Vivek (1985- )",
+                "Scott, Timothy Eugene",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [
+                "Iowa",
+                "United States"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Damon Winter/The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30douthatNew-ztpm/30douthatNew-ztpm-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30douthatNew-ztpm/30douthatNew-ztpm-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30douthatNew-ztpm/30douthatNew-ztpm-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/dac60fa6-133c-5061-9b53-0e36c55571d0",
+            "url": "https://www.nytimes.com/2023/09/30/us/anthropology-panel-sex-binary-gender-kathleen-lowery.html",
+            "id": 100000009106626,
+            "asset_id": 100000009106626,
+            "source": "New York Times",
+            "published_date": "2023-09-30",
+            "updated": "2023-09-30 05:02:19",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Homosexuality and Bisexuality;Archaeology and Anthropology;Transgender;Gender;Fuentes, Agustin;Kathleen Lowrey;Elizabeth Weiss;American Anthropological Assn",
+            "column": null,
+            "byline": "By Vimal Patel",
+            "type": "Article",
+            "title": "Anthropology Conference Drops a Panel Defending Sex as Binary",
+            "abstract": "Organizers said the session did not have scientific merit and was harmful to transgender members. Critics of the move say the discipline is unfriendly to dissenting views on the subject.",
+            "des_facet": [
+                "Homosexuality and Bisexuality",
+                "Archaeology and Anthropology",
+                "Transgender",
+                "Gender"
+            ],
+            "org_facet": [
+                "American Anthropological Assn"
+            ],
+            "per_facet": [
+                "Fuentes, Agustin",
+                "Kathleen Lowrey",
+                "Elizabeth Weiss"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Kathleen Lowrey, an associate professor at the University of Alberta, organized a panel called, “Let’s Talk About Sex Baby: Why Biological Sex Remains a Necessary Analytic Category in Anthropology.”",
+                    "copyright": "Amber Bracken for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30nat-anthropology-01-gclt/30nat-anthropology-01-gclt-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30nat-anthropology-01-gclt/30nat-anthropology-01-gclt-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/30/multimedia/30nat-anthropology-01-gclt/30nat-anthropology-01-gclt-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/357be138-7b80-5193-abcd-e9d70724d5fc",
+            "url": "https://www.nytimes.com/2023/09/30/business/the-harvard-professor-and-the-bloggers.html",
+            "id": 100000009098066,
+            "asset_id": 100000009098066,
+            "source": "New York Times",
+            "published_date": "2023-09-30",
+            "updated": "2023-09-30 20:32:53",
+            "section": "Business",
+            "subsection": "",
+            "nytdsection": "business",
+            "adx_keywords": "Colleges and Universities;Ethics and Official Misconduct;Falsification of Data;Psychology and Psychologists;Gino, Francesca;Harvard Business School",
+            "column": null,
+            "byline": "By Noam Scheiber",
+            "type": "Article",
+            "title": "The Harvard Professor and the Bloggers",
+            "abstract": "When Francesca Gino, a rising academic star, was accused of falsifying data — about how to stop dishonesty — it didn’t just torch her career. It inflamed a crisis in behavioral science.",
+            "des_facet": [
+                "Colleges and Universities",
+                "Ethics and Official Misconduct",
+                "Falsification of Data",
+                "Psychology and Psychologists"
+            ],
+            "org_facet": [
+                "Harvard Business School"
+            ],
+            "per_facet": [
+                "Gino, Francesca"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Prof. Francesca Gino speaking at an executive education event at Harvard Business School.",
+                    "copyright": "Brooks Kraft/Harvard University",
+                    "approved_for_syndication": 0,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/GINO-HARVARD-01-wtmc/GINO-HARVARD-01-wtmc-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/GINO-HARVARD-01-wtmc/GINO-HARVARD-01-wtmc-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/GINO-HARVARD-01-wtmc/GINO-HARVARD-01-wtmc-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/8c303b4d-1765-58a8-9c48-d08bce51116b",
+            "url": "https://www.nytimes.com/2023/09/29/style/albie-awards-new-york-philharmonic-met-opera.html",
+            "id": 100000009093733,
+            "asset_id": 100000009093733,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-30 11:05:14",
+            "section": "Style",
+            "subsection": "",
+            "nytdsection": "style",
+            "adx_keywords": "Philanthropy;Parties (Social);Awards, Decorations and Honors;Clooney, Amal;Clooney, George;New York Philharmonic;Metropolitan Opera",
+            "column": null,
+            "byline": "By Katie Van Syckle and Melissa Guerrero",
+            "type": "Article",
+            "title": "Amal Clooney, Anne Hathaway and Jon Hamm Hit the Fall Galas in New York",
+            "abstract": "The Clooneys hosted the Albies, and the New York Philharmonic and Metropolitan Opera held opening night galas.",
+            "des_facet": [
+                "Philanthropy",
+                "Parties (Social)",
+                "Awards, Decorations and Honors"
+            ],
+            "org_facet": [
+                "New York Philharmonic",
+                "Metropolitan Opera"
+            ],
+            "per_facet": [
+                "Clooney, Amal",
+                "Clooney, George"
+            ],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Amal and George Clooney arriving at the Albies held at the New York Public Library on Fifth Avenue.",
+                    "copyright": "Rebecca Smeyne for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/29PARTYREPORT-01-kfcl/29PARTYREPORT-01-kfcl-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/29PARTYREPORT-01-kfcl/29PARTYREPORT-01-kfcl-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/10/01/multimedia/29PARTYREPORT-01-kfcl/29PARTYREPORT-01-kfcl-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/4e5edba3-945d-545d-aa6c-1cf5110d3245",
+            "url": "https://www.nytimes.com/article/government-shutdown-effects.html",
+            "id": 100000009109570,
+            "asset_id": 100000009109570,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-30 11:48:59",
+            "section": "U.S.",
+            "subsection": "Politics",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Shutdowns (Institutional);Small Business;Taxation;National Parks, Monuments and Seashores;Museums;Courts and the Judiciary;Student Loans;Head Start Program;Airport Security;United States Politics and Government;Internal Revenue Service;Federal Emergency Management Agency",
+            "column": null,
+            "byline": "By Zach Montague",
+            "type": "Article",
+            "title": "Where Would a Government Shutdown Immediately Be Most Felt?",
+            "abstract": "As federal agencies prepare to enact their contingency plans for a shutdown, this is where the public could notice changes in the coming days.",
+            "des_facet": [
+                "Shutdowns (Institutional)",
+                "Small Business",
+                "Taxation",
+                "National Parks, Monuments and Seashores",
+                "Museums",
+                "Courts and the Judiciary",
+                "Student Loans",
+                "Head Start Program",
+                "Airport Security",
+                "United States Politics and Government"
+            ],
+            "org_facet": [
+                "Internal Revenue Service",
+                "Federal Emergency Management Agency"
+            ],
+            "per_facet": [],
+            "geo_facet": [],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "FEMA has said it would be unable to continue its operations in all of the 82 major disaster sites it is currently servicing, including rebuilding from wildfires in Hawaii.",
+                    "copyright": "Max Whittaker for The New York Times",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29dc-shutdown-explainer-bzvp/29dc-shutdown-explainer-bzvp-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29dc-shutdown-explainer-bzvp/29dc-shutdown-explainer-bzvp-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29dc-shutdown-explainer-bzvp/29dc-shutdown-explainer-bzvp-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        },
+        {
+            "uri": "nyt://article/e6a10063-a9d7-57e5-890b-4cadad9b51b1",
+            "url": "https://www.nytimes.com/2023/09/29/us/georgia-trump-scott-hall-guilty-plea.html",
+            "id": 100000009111031,
+            "asset_id": 100000009111031,
+            "source": "New York Times",
+            "published_date": "2023-09-29",
+            "updated": "2023-09-30 00:14:46",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Georgia Criminal Case Against Trump (2020 Election);Hall, Scott G (1965- );Trump, Donald J;Georgia;Coffee County (Ga)",
+            "column": null,
+            "byline": "By Richard Fausset and Danny Hakim",
+            "type": "Article",
+            "title": "Trump Co-Defendant in Georgia Election Interference Case Pleads Guilty",
+            "abstract": "Scott Hall, a Trump supporter who is among the 19 people charged in a racketeering case involving the former president, is the first defendant to plead guilty.",
+            "des_facet": [
+                "Georgia Criminal Case Against Trump (2020 Election)"
+            ],
+            "org_facet": [],
+            "per_facet": [
+                "Hall, Scott G (1965- )",
+                "Trump, Donald J"
+            ],
+            "geo_facet": [
+                "Georgia",
+                "Coffee County (Ga)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "Scott Hall, center, stands with his attorney in Superior Court of Fulton County before Judge Scott McAfee in this frame grab from the hearing.",
+                    "copyright": "Pool photo by Reuters",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29nat-georgia-plea-lphm/29nat-georgia-plea-lphm-thumbStandard.jpg",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29nat-georgia-plea-lphm/29nat-georgia-plea-lphm-mediumThreeByTwo210.jpg",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2023/09/29/multimedia/29nat-georgia-plea-lphm/29nat-georgia-plea-lphm-mediumThreeByTwo440.jpg",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        }
+    ]
+}
