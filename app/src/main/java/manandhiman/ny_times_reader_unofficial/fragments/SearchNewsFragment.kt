@@ -1,6 +1,5 @@
 package manandhiman.ny_times_reader_unofficial.fragments
 
-import android.app.ProgressDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
