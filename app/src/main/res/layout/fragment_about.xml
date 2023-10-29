@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
@@ -7,8 +8,42 @@
 
   <!-- TODO: Update blank fragment layout -->
   <TextView
+    android:id="@+id/textView2"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="This is unofficial app made only as a project to showcase my learning.\n The source is the api given at developer.nytimes.com" />
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:text="@string/about"
+    android:textSize="24sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+  <ImageButton
+    android:id="@+id/imageButtonGithub"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_marginTop="48dp"
+    android:background="#00FFFFFF"
+    android:scaleType="centerInside"
+    android:src="@drawable/logo_github"
+    app:layout_constraintEnd_toStartOf="@+id/imageButtonLinkedin"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+  <ImageButton
+    android:id="@+id/imageButtonLinkedin"
+    android:layout_width="64dp"
+    android:layout_height="64dp"
+    android:layout_marginTop="48dp"
+    android:background="#00FFFFFF"
+    android:scaleType="fitCenter"
+    android:src="@drawable/logo_linkedin"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.5"
+    app:layout_constraintStart_toEndOf="@+id/imageButtonGithub"
+    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

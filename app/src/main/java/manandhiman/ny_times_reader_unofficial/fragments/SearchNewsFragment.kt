@@ -1,5 +1,6 @@
 package manandhiman.ny_times_reader_unofficial.fragments
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -19,11 +20,18 @@ import retrofit2.Response
 
 class SearchNewsFragment : Fragment() {
   private lateinit var binding: FragmentSearchNewsBinding
+  private lateinit var loadingDialog: AlertDialog
   override fun onCreateView(
     inflater: LayoutInflater, container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View {
     binding = FragmentSearchNewsBinding.inflate(layoutInflater, container, false)
+
+    val builder: AlertDialog.Builder = AlertDialog.Builder(activity)
+    builder.setCancelable(false)
+    builder.setView(R.layout.loading_dialog)
+
+    loadingDialog = builder.create()
 
     binding.button.setOnClickListener {
       handleFindButton()
@@ -43,6 +51,7 @@ class SearchNewsFragment : Fragment() {
   }
 
   private fun makeHttpRequest(query: String) {
+    loadingDialog.show()
 
     val apiKey = context?.getString(R.string.api_key)
     val response = RetrofitInstance.getInstance().apiInterface.getArticle(
@@ -70,6 +79,7 @@ class SearchNewsFragment : Fragment() {
     catch (e: Exception) {
       Toast.makeText(context, R.string.toast_api_got_response, Toast.LENGTH_LONG).show()
     }
+    loadingDialog.dismiss( )
   }
 
   private fun generateRecyclerView(list: List<Doc>) {

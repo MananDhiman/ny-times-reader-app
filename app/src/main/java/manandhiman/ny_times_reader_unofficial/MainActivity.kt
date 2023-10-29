@@ -1,5 +1,5 @@
 package manandhiman.ny_times_reader_unofficial
-// Inflate the layout for this fragment
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.tabs.TabLayoutMediator

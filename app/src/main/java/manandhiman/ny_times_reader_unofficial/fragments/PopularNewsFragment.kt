@@ -1,5 +1,6 @@
 package manandhiman.ny_times_reader_unofficial.fragments
 
+import android.app.AlertDialog
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -23,6 +24,7 @@ import retrofit2.Response
 class PopularNewsFragment : Fragment() {
 
   private lateinit var binding: FragmentPopularNewsBinding
+  private lateinit var loadingDialog: AlertDialog
 
   override fun onCreateView(
     inflater: LayoutInflater, container: ViewGroup?,
@@ -30,6 +32,12 @@ class PopularNewsFragment : Fragment() {
   ): View {
 
     binding = FragmentPopularNewsBinding.inflate(layoutInflater, container, false)
+
+    val builder: AlertDialog.Builder = AlertDialog.Builder(activity)
+    builder.setCancelable(false)
+    builder.setView(R.layout.loading_dialog)
+
+    loadingDialog = builder.create()
 
     initSpinner()
 
@@ -63,7 +71,7 @@ class PopularNewsFragment : Fragment() {
   }
 
   private fun makeHttpRequest(durationSelected: String) {
-
+    loadingDialog.show()
     val apiKey = context?.getString(R.string.api_key)
     val response = RetrofitInstance.getInstance().apiInterface.getPopularNews(
       durationSelected,
@@ -89,7 +97,9 @@ class PopularNewsFragment : Fragment() {
     }
     catch (e: Exception) {
       Log.d("try fail response body", response.body().toString())
-      Toast.makeText(context, R.string.toast_api_got_response, Toast.LENGTH_LONG).show() }
+      Toast.makeText(context, R.string.toast_api_got_response, Toast.LENGTH_LONG).show()
+    }
+    loadingDialog.dismiss( )
   }
 
   private fun generateRecyclerView(listPopularNews: List<PopularNewsSingleResult>) {

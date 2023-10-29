@@ -2,4 +2,7 @@
   <string name="app_name">The New York Times Reader - Unofficial</string>
   <string name="toast_api_no_response">Some error occurred. Please wait, and try again later </string>
   <string name="toast_api_got_response">Could not parse response. Please wait, and try again later </string>
+  <string name="about">This is unofficial app made only as a project to showcase my learning.
+    \n\nThe source of the news is the api given at <u>developer.nytimes.com</u>
+    \n\nThe app is created by <b>Manan Dhiman</b>, an avid android and web developer</string>
 </resources>
